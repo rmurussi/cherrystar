@@ -11,7 +11,7 @@ import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 
 
-type Anchor = 'top' | 'left' | 'bottom' | 'right';
+type Anchor = 'left';
 
 function ThDrawer(prop: any) {
   const [state, setState] = React.useState({
