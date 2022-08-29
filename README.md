@@ -56,7 +56,7 @@ git clone https://github.com/rmurussi/cherrystar /var/www/
 
 cd /var/www/cherrystar
 chmod +x docker-build.sh
-echo "Let's take a coffe, while docker do hard job" && \
+echo "Let's take a coffe, while docker do the hard job" && \
 ./docker-build.sh
 
 ```
@@ -75,29 +75,29 @@ chmod -R 777 storage -R *
 
 ```
 
-### Now you have app on - WOW!
+### Now you have the app on - WOW!
 
  - Navigate to: [http://localhost:3000](http://localhost:3000)
 
- - Maybe you need wait some seconds - Node is building..
+ - Maybe you need to wait some seconds - Node is building...
 
-### Congrats, look what you larned :D
+### Congrats, look what you did :D
  - Cloned a project with git on github
  - Started a project on Sail - Laravel
- - Docker enviroment
+ - Created a Docker enviroment
  - Most recent technologies integration
  - Front-end enviroment integrated with back-end app
  - Top Skills: GraphQL, Redis, Php8.1, ReactJS, Apollo, MUI, PostgreSQL
- - An application front-end + back-end that do login with GraphQL Mutation (Sanctum). App have a central base to log-in, each user have a databe(tenancy). When user log-in, laravel save `Resquest data` in `database-user.access` [IP/Browser/Timestamp] and return token of user(Sanctum).
- - After log-in, you'll see a grid with list of access registred over dabase of user.
+ - An application front-end + back-end that log-in using GraphQL Mutation (Sanctum). An App that have a central base to log-in, each user having a database(tenancy). When an user log-in, laravel save `Resquest data` in `database-user.access` [IP/Browser/Timestamp] and return a token of the user(Sanctum).
+ - After log-in, you'll see a grid with a list of the latest accesses in the database of your user.
 
-# Go beyond - nexts step's
+# Go beyond - next steps
 
-## Suggest you do yourself
+## I suggest you do it yourself
 
 ### Laravel
- - Change Sanctum to Oauth2 (Most technology used to log-in)
- - Create rules access of users back-end/front-end
+ - Change Sanctum to Oauth2 (Most used technology for log-in)
+ - Create access rules for users in environment back-end/front-end
  - Change Tanancy token to Tanancy Domain/Sub-Domain
  - Change GraphQL-Query table `Access`, to load data from `access` with pagination
  - Set trust Host & Proxies
@@ -111,7 +111,7 @@ chmod -R 777 storage -R *
  - Register (New Page with route)
  - Validation forms in reacjs with [Yup](https://www.npmjs.com/package/yup)
  - Validate mutation and query return from GraphQL
- - I18n, make app muti-lang
+ - I18n, make the app multi-lang
 
 ### [Heroku](https://www.heroku.com)
  - Free cloud to host your app
