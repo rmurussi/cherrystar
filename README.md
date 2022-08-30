@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://repository-images.githubusercontent.com/529700857/52335296-b88e-41a2-910b-ca55799054a4" width="400" alt="CherryStar Logo"></a></p>
+<p align="center"><a href="https://github.com/rmurussi/cherrystar" target="_blank"><img src="https://repository-images.githubusercontent.com/529700857/52335296-b88e-41a2-910b-ca55799054a4" width="400" alt="CherryStar Logo"></a></p>
 
 # CherryStar - Study case, starting with recent technologies
 
