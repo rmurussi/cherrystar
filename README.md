@@ -64,6 +64,8 @@ echo "Let's take a coffe, while docker do the hard job" && \
 Docker Desktop - Open *Bash* of containner `cherrystar: laravel-cherrystar`
 
 ``` bash
+comoposer install
+cp .env.example .env
 php artisan migrate
 php artisan db:seed
 
