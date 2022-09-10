@@ -1,3 +1,5 @@
+<p align="center"><a href="https://github.com/rmurussi/cherrystar" target="_blank"><img src="https://repository-images.githubusercontent.com/529700857/52335296-b88e-41a2-910b-ca55799054a4" width="400" alt="CherryStar Logo"></a></p>
+
 # CherryStar - Study case, starting with recent technologies
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://ko-fi.com/renanmurussi)
