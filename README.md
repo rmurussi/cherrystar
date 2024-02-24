@@ -53,8 +53,12 @@ You will learn:
 
 From terminal/WSL2 - You MUST clone at /var/www/
 ``` bash
-git clone https://github.com/rmurussi/cherrystar /var/www/
+cd /var/www
+git clone https://github.com/rmurussi/cherrystar
 
+cd /var/www/cherrystar/cherrystar-back-end
+cp .env.example .env
+composer update
 
 cd /var/www/cherrystar
 chmod +x docker-build.sh
@@ -66,7 +70,7 @@ echo "Let's take a coffe, while docker do the hard job" && \
 Docker Desktop - Open *Bash* of containner `cherrystar: laravel-cherrystar`
 
 ``` bash
-comoposer install
+composer install
 cp .env.example .env
 php artisan migrate
 php artisan db:seed
